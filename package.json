@@ -1,0 +1,26 @@
+{
+	"name": "soundbase",
+	"version": "1.0.0",
+	"description": "Social networking app for musicians",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Skateboardb/SoundBase.git"
+	},
+	"author": "Branford Shaw",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Skateboardb/SoundBase/issues"
+	},
+	"homepage": "https://github.com/Skateboardb/SoundBase#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"mocha": "^7.1.1",
+		"supertest": "^4.0.2"
+	}
+}
