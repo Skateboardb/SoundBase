@@ -73,7 +73,7 @@ hooks:
   #     runas: ec2-user
   # During the ApplicationInstall deployment lifecycle event, run the commands
   #   in the script specified in "location".
-  - ApplicationStart: 'node server.js'
-    # - location: scripts/application_start.sh
-    #   timeout: 300
-    #   runas: ec2-user
+  # - ApplicationStart: 'node server.js'
+  # - location: scripts/application_start.sh
+  #   timeout: 300
+  #   runas: ec2-user
