@@ -1,7 +1,6 @@
 #!/bin/sh
 ssh ec2-user@52.27.208.79  -T<<EOF
     cd ~/app
-    git init
     git pull origin master
     npm install
     npm start
