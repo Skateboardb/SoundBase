@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ec2-user@52.27.208.79  -T<<EOF
+ssh ec2-user@52.39.81.137  -T<<EOF
     cd ~/app
     git pull origin master
     npm install
