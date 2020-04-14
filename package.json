@@ -5,8 +5,10 @@
 	"main": "server.js",
 	"scripts": {
 		"test": "mocha ./test/*.js --exit",
+
 		"start": "node server.js",
 		"dev": "concurrently  \"nodemon --ignore 'client/*'\" \"npm run client\""
+
 	},
 	"repository": {
 		"type": "git",
