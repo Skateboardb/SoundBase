@@ -1,0 +1,9 @@
+#!/bin/sh
+ssh ec2-user@52.39.81.137  -T<<EOF
+    cd ~/app
+    git pull origin master
+    npm install
+    npm start
+    exit
+EOF
+
