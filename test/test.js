@@ -7,7 +7,6 @@ describe('GET/', function() {
 		request(app)
 			.get('/')
 
-			.expect('hello from docker!', done);
-
+			.expect('HELLO FROM DOCKER!', done);
 	});
 });
